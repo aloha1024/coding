@@ -3,10 +3,9 @@ import urllib2
 import urllib
 import cookielib
 
-
-url_basic='192.168.19.47'
+url_basic='x.x.x.x'
 port='80'
-dect='wp-login.php'#添加可攻击页面
+dect='test.php'#添加可攻击页面
 payload=''
 url='http://'+url_basic+':'+port+'/'+dect+payload
 req=urllib2.Request(url)
@@ -18,23 +17,3 @@ print flag
 f=open('./flag_store.txt','a')
 f.write(flag+' ') #写入文件，然后直接放到提交flag脚本的列表中
 f.close()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
