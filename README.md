@@ -1,9 +1,7 @@
-Some tools for information security
+自己平时顺手写的一些工具，代码片段归档
+Attack&Defense
+    线下awd比赛准备的少量代码片段和总结（未完成待施工）
 
-重建目录
-
-Attack&Defense 主要收集实战与线下攻防赛工具及经验总结
-
-Something 平时比赛所写脚本归档
-
-
+LearnXXX系列
+    学习某方面知识时笔记归档，代码实例归档
+    

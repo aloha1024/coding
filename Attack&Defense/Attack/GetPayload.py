@@ -1,4 +1,7 @@
 #encoding=utf-8
+'''
+以get请求发送payload
+'''
 import urllib2
 import urllib
 import cookielib
