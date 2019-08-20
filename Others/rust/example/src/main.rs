@@ -1,8 +1,5 @@
-
-
 fn main() {
     println!("Hello, world!");
-
 }
 
 fn example1 {
@@ -22,7 +19,6 @@ fn example1 {
 //     }
 // }
 
-
 //use "if" in "let"
 fn example3 {
     let condition = true;
@@ -40,7 +36,6 @@ fn example4 {
     }
 }
 
-
 fn example5 {
     let mut counter = 0;
 
@@ -51,6 +46,13 @@ fn example5 {
             break counter * 2;
         }
     };
-
     assert_eq!(result, 20);
 }
+
+fn example6 {
+    let x = 5;
+    println!("the value of x is: {}", x);
+    x = 6;
+    println!("the value of x is: {}", x);
+}
+
